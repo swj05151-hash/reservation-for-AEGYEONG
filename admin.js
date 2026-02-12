@@ -69,9 +69,10 @@ async function deleteEntry(id, name) {
 
 // 4. 실행 로직 (인증 코드 확인)
 const adminCode = prompt("관리자 인증 코드를 입력하세요.");
-if (adminCode === "5179") {
+if (adminCode === "1234") {
     fetchAdminData();
 } else {
     alert("인증 코드가 틀렸습니다.");
     location.href = "index.html";
 }
+
