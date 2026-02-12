@@ -1,8 +1,8 @@
 // ================================
 // 🔥 1. Supabase 연결 (오류 방지를 위해 정돈된 코드)
 // ================================
-const SUPABASE_URL = "https://znsulkjzlxfybbofrefr.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpuc3Vsa2p6bHhmeWJib2ZyZWZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA3MjI0NjMsImV4cCI6MjA4NjI5ODQ2M30.Dn-FZaWHMbudELxuFZuRbV24-cpgftsBh2YiyTS-CYY";
+const SUPABASE_URL = "https://xbyfdxsokfysrnlzktrr.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhieWZkeHNva2Z5c3JubHprdHJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4MzkwMjUsImV4cCI6MjA4NjQxNTAyNX0.UtzMS9BwAjws8jk_dSNlp5Kr42BBPFoFE6oz3O3n7c8";
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const TABLE = "time-reservation";
@@ -126,4 +126,5 @@ client
   .subscribe();
 // 시작
 createTable();
+
 loadReservations();
