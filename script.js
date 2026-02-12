@@ -1,5 +1,5 @@
 // ================================
-// 🔥 1. Supabase 연결 (오류 방지를 위해 정돈된 코드)
+// 🔥 1. Supabase 연결 (오류 방지를 위해 정돈된 코드) 잘 좀 해라
 // ================================
 const SUPABASE_URL = "https://xbyfdxsokfysrnlzktrr.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhieWZkeHNva2Z5c3JubHprdHJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4MzkwMjUsImV4cCI6MjA4NjQxNTAyNX0.UtzMS9BwAjws8jk_dSNlp5Kr42BBPFoFE6oz3O3n7c8";
@@ -128,4 +128,5 @@ client
 createTable();
 
 loadReservations();
+
 
